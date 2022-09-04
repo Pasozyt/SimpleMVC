@@ -1,0 +1,16 @@
+{
+    "require": {
+        "kint-php/kint": "^3.3",
+        "php-di/php-di": "^6.3"
+    },
+    "autoload": {
+        "files": [
+            "./helpers/config.php",
+            "./helpers/route.php",
+            "./helpers/translate.php"
+        ],
+        "psr-4": {
+            "": "app/"
+        }
+    }
+}
